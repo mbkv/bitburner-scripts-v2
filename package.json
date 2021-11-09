@@ -1,0 +1,31 @@
+{
+  "name": "bitburner",
+  "version": "0.0.0",
+  "description": "Bitburner scripts",
+  "main": "index.js",
+  "author": "Alxandr",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "@rollup/plugin-typescript": "^2.0.1",
+    "execa": "^4.0.0",
+    "glob": "^7.1.6",
+    "mkdirp": "^0.5.1",
+    "prettier": "^1.19.1",
+    "rollup": "^1.27.14",
+    "rollup-plugin-prettier": "^0.6.0",
+    "svelte": "^3.16.7",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -wc"
+  },
+  "dependencies": {
+    "@types/lodash-es": "^4.17.3",
+    "argparse": "^1.0.10",
+    "lodash-es": "^4.17.15"
+  }
+}
